@@ -1,0 +1,9 @@
+Resources:
+  DBCrud2:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: src/controller/book.controller.createBook
+      CodeUri: D:/Thiru/Node Practice/DB_Crud_2
+      Runtime: nodejs12.x
+      Environment:
+        Variables: {}
